@@ -14,6 +14,11 @@ rustup target add thumbv7em-none-eabihf
 ```
 cargo bootimage
 ```
+**Current run Command:**
+```
+(assuming qemu is installed and on your PATH)
+qemu-system-x86_64 -drive format=raw,file=target/workspace/debug/bootimage-prismaworkspace.bin
+```
 
 **Current run Command:**
 ```

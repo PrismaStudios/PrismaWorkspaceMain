@@ -1,13 +1,20 @@
 # PrismaWorkspace
 
-**Build Command:**
+Make sure you have set the directory to rust nightly!!
 ```
-cargo build --target thumbv7em-none-eabihf
+rustup override set nightly
 ```
 
-Makesure to add the target via rustup:
+Make sure to add the target via rustup:
 ```
 rustup target add thumbv7em-none-eabihf
 ```
+
+**Build Command:**
+```
+cargo build --target workspace.json
+```
+
+
 
 Updated 10/17/2022

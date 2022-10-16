@@ -12,9 +12,9 @@ rustup target add thumbv7em-none-eabihf
 
 **Build Command:**
 ```
-cargo bootimage
+cargo run
 ```
-**Current run Command:**
+**Legacy run Command:**
 ```
 (assuming qemu is installed and on your PATH)
 qemu-system-x86_64 -drive format=raw,file=target/workspace/debug/bootimage-prismaworkspace.bin

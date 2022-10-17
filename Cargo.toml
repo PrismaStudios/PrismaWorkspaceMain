@@ -5,10 +5,10 @@ edition = "2018"
 authors = ["portalmaster137 <portalmaster137@gmail.com>", "supergoblin08"]
 
 [profile.dev]
-panic = "abort"
+
 
 [profile.release]
-panic = "abort"
+
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 

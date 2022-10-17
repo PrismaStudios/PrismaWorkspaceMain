@@ -52,9 +52,9 @@ fn trivial_assertion() {
 }
 
 #[test_case]
-fn fail_assert() {
-    serial_print!("fail assertion... ");
-    assert_eq!(1, 2);
+fn better_assert() {
+    serial_print!("better assertion... ");
+    assert_eq!(2, 2);
     serial_println!("[ok]");
 }
 
